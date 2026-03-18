@@ -1,0 +1,204 @@
+body{
+    margin:0;
+    font-family: "Times New Roman", Times, serif;
+    background:#02091b;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.page{
+    padding: 150px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    top: 235px;
+    right: 210px;
+}
+
+.card{
+    width:600px;
+    padding:30px;
+    border-radius:20px;
+    background:linear-gradient(145deg,#0e0e24,#1e1e44);
+    box-shadow:
+        0 0 120px rgba(48, 49, 79, 0.226);
+    position:relative;
+}
+
+.info-btn{
+    position:absolute;
+    right:20px;
+    top:35px;
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    border:1px solid #aaa;
+    color:#aaa;
+    text-align:center;
+    line-height:25px;
+    text-decoration:none;
+    font-size:14px;
+    transition: 2s;
+}
+
+.info-btn:hover{
+    background-color:#555;
+    width: 40px;
+}
+
+.music-card{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-image: url(bgbluee.gif);
+    border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.spotifyy{
+    display:flex;
+    flex-direction:column;
+}
+
+.spotify{
+    position:relative;
+    right: 10px;
+    top: 0px;
+    width:35px;
+    margin-bottom:10px;
+}
+
+.text h2{
+    color:white;
+    font-size:22px;
+    margin:0;
+}
+
+.text p{
+    color:#ccc;
+    font-size:20px;
+    margin:3px 0 15px 0;
+}
+
+.progress{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.time{
+    color:#aaa;
+    font-size:12px;
+}
+
+.bar{
+    width:220px;
+    height:4px;
+    background:#555;
+    border-radius:5px;
+    overflow:hidden;
+}
+
+.progress-fill{
+    width:25%;
+    height:100%;
+    background:white;
+}
+
+.right{
+    margin-top: 20px;
+    text-align:right;
+}
+
+.credit{
+    font-style:italic;
+    color:white;
+    font-size: 18px;
+    margin:0;
+}
+
+.handle{
+    color:white;
+    font-size: 20px;
+    margin:0;
+}
+
+.footer{
+    text-align:center;
+    color:#777;
+    margin-top:15px;
+    font-size:12px;
+}
+
+#socmed-section{
+    padding:100px;
+    padding-top: 60px;
+    background:#02091b;
+    color:white;
+    position: absolute;
+    top: 340px;
+    right: 210px;
+    
+}
+
+.page4{
+    height:0vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.card4{
+    width:600px;
+    height:50px;
+    padding:30px;
+    border-radius:20px;
+    background:linear-gradient(145deg,#0e0e24,#1e1e44);
+    box-shadow:
+        0 0 10px rgba(48, 49, 79, 0.226);
+    position:relative;
+}
+
+.home{
+    position:absolute;
+    right:20px;
+    top:15px;
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    border:1px solid #aaa;
+    color:#aaa;
+    text-align:center;
+    line-height:25px;
+    text-decoration:none;
+    font-size:14px;
+    transition: 2s;
+}
+
+.home:hover{
+    background-color:#555;
+    width: 40px;
+}
+
+.valo p{
+    position: relative;
+    top: -20px;
+    font-size: 20px;
+}
+
+.valo img{
+    position: relative;
+    top: -105px;
+    left: 380px;
+    width:150px;
+    height: 90px;
+    border-radius: 40px;
+}
